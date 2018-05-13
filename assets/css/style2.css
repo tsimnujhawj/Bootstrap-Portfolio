@@ -16,21 +16,6 @@ body {
  }
 
 
- ul {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    border: solid 1px #4aaaa5;
-    margin-top: 15px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
- }
-
- li {
-    margin-bottom: 10px;
- }
-
-
 footer {
     border-top: 7px solid #4aaaa5;
     padding-top: 40px;
@@ -60,7 +45,7 @@ hr {
 #footer-wrapper {
     margin-top: 100px;
     padding: 0 0 100px;
-    position: relative;
+
 }
 
 
@@ -144,6 +129,8 @@ a:active {
     font-size: 25px;
 }
 
+/* Navigation Settings */
+
 .navCustom {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
@@ -156,34 +143,29 @@ a:active {
     margin: 0 auto;
 }
 
-.navTitle {
+.linkSpace-last {
+    padding-left: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.nav.navbar-nav {
+    float: right;
+}
+
+.nav.navbar-nav a {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    border-right: #777777 solid 1px;
+}
+
+.navbar-header a {
     background-color: #4aaaa5;
     color: #ffffff;
     font-size: 30px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
-    padding: 18px;
-    float: left;
-}
-
-.navLinks {
-    float: right;
-    padding: 30px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    font-size: 18px;
-}
-
-.linkSpace {
-    padding-right: 20px;
-    padding-left: 20px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-
-}
-
-.linkSpace-last {
-    padding-left: 20px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
+    padding: 17px;
 }
