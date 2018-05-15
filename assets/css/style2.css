@@ -21,7 +21,6 @@ footer {
     padding-top: 40px;
     padding-bottom: 7px;
     background-color: #666666;
-    clear: both;
     width: 100%;
     bottom: 0;
     right: 0;
@@ -38,12 +37,13 @@ hr {
     border: 2px solid;
 }
 
-#footer-wrapper {
+.footerWrapper {
     margin-top: 100px;
     padding: 0 0 100px;
 
 }
 
+/* Image Settings */
 
 .float-left {
     float: left;
@@ -87,6 +87,8 @@ figcaption {
     text-align: center;
 }
 
+/* Portfolio */
+
 .portfolio-box {
     display: inline-block;
     margin: 20px 20px 20px 0px;
@@ -112,6 +114,7 @@ figcaption {
 
 #navbarNav {
     float: right;
+    padding: 25px;
 }
 
 .navWrapper {
@@ -119,39 +122,53 @@ figcaption {
     margin: 0 auto;
 }
 
-.linkSpace-last {
-    padding-left: 20px;
+.navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-brand:focus {
+    color: #ffffff;
+}
+
+a.nav-link {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 30px;
+}
+
+#navLastLink {
+    padding-right: 0px;
+}
+
+.navbar-brand {
+    padding: 18px;
+    margin: 0px;
+    background-color: #4aaaa5;
+    font-size: 28px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
 
 .navbar {
     min-height: 80px;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
+    padding: 0px;
 }
 
-.navbar-nav .nav-link {
-    padding-right: 20px;
-    padding-left: 20px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    border-right: #777777 solid 1px;
-    font-size: 18px;
-}
-
-.navbar-header a {
-    background-color: #4aaaa5;
+.navbar-light .navbar-brand {
     color: #ffffff;
-    font-size: 30px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: bold;
-    padding: 17px;
 }
 
 #navSpacer {
     margin-top: 170px;
 }
+
 
 /* Blog Title */
 
@@ -183,5 +200,17 @@ figcaption {
     padding-right: 20px;
     padding-left: 20px;
  }
+
+
+ /* Clearfix */
+ .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clear {
+    clear: both;
+}
 
  /* @media */
