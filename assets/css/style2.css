@@ -36,7 +36,6 @@ hr {
 
 
 /* Image Settings */
-
 .float-left {
     float: left;
     margin: 20px 20px 20px 0px;
@@ -80,7 +79,6 @@ figcaption {
 }
 
 /* Portfolio */
-
 .portfolio-box {
     display: inline-block;
     margin: 20px 20px 20px 0px;
@@ -103,7 +101,6 @@ figcaption {
 }
 
 /* Navigation Settings */
-
 #navbarNav {
     float: right;
     padding-top: 25px;
@@ -166,7 +163,6 @@ a.nav-link {
 
 
 /* Blog Title */
-
 .blogHeader {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
@@ -187,7 +183,6 @@ a.nav-link {
 }
 
 /* About Me */
-
  .mainContent {
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -228,5 +223,26 @@ ul.listBox {
 .clear {
     clear: both;
 }
+
+/* Form Content */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 28px;
+    border: none;
+    cursor: pointer;
+}
+
 
  /* @media */
